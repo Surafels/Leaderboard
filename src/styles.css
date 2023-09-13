@@ -3,8 +3,6 @@
     margin:0;
 }
 
-
-
 h1{
     color: red;
 }
@@ -16,18 +14,24 @@ section{
 }
 .score-head{
     display: flex;
+    justify-content: space-around;
 }
 #add-score{
     display: flex;
     flex-direction: column;
     margin:24px;
     padding:24px;
+    width:50%;
+}
+li{
+    padding:5px;
 }
 #score-List li:nth-child(even){
     background-color: rgb(221,221,221);
 
 }
 #score-List{
+    margin:24px; 
     border: solid 1px;
     list-style: none;
 }
@@ -37,3 +41,12 @@ padding:24px;
 
 width:70%;
 }
+input {
+    margin: 10px;
+    padding: 5px;
+}
+.submit{
+   width:fit-content;
+   align-self: end;
+    margin: 10px;
+} 

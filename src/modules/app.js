@@ -9,7 +9,7 @@ const scores =[
 
 const scoreList= document.getElementById("score-List");
 const saveList= () =>{
-    scoreList.innerHTML= scores.map(score => `<li>.${score.name}:${score.score}</li>`).join("\n");
+    scoreList.innerHTML= scores.map(score => `<li>${score.name}:${score.score}</li>`).join("\n");
 }
 
 export default saveList;
