@@ -3,7 +3,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h2>To Do List</h2>
+  <h2>Leaderboard</h2>
   <br/>
 </div>
 
