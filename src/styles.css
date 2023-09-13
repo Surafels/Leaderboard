@@ -1,3 +1,39 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+
+
 h1{
     color: red;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+.score-head{
+    display: flex;
+}
+#add-score{
+    display: flex;
+    flex-direction: column;
+    margin:24px;
+    padding:24px;
+}
+#score-List li:nth-child(even){
+    background-color: rgb(221,221,221);
+
+}
+#score-List{
+    border: solid 1px;
+    list-style: none;
+}
+#scores-Element{
+margin:24px; 
+padding:24px;
+
+width:70%;
 }
