@@ -4,8 +4,14 @@
   font-family: sans-serif;
 }
 
+body {
+  background-image: url('images/neom-WpOMM4uE-F8-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 h1 {
-  margin: 24px;
+  margin-left: 64px;
   padding: 24px;
 }
 
@@ -33,7 +39,13 @@ li {
 }
 
 #score-List li:nth-child(even) {
-  background-color: rgb(221, 221, 221);
+  background-color: gray;
+  border: 1px solid darkblue;
+}
+
+#score-List li:nth-child(odd) {
+  background-color: gainsboro;
+  border: 1px solid snow;
 }
 
 #score-List {
@@ -51,10 +63,28 @@ li {
 input {
   margin: 10px;
   padding: 5px;
+  background: gainsboro;
+}
+
+#refresh {
+  background: gainsboro;
+  padding: 5px;
 }
 
 .submit {
   width: fit-content;
   align-self: end;
   margin: 10px;
+  background: gainsboro;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#refresh:hover:active {
+  box-shadow: 5px 5px black;
+}
+
+.submit:hover:active {
+  background-color: red;
+  box-shadow: 5px 5px black;
 }
