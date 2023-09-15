@@ -1,4 +1,6 @@
 import './styles.css';
-import saveList from './modules/app.js';
+import { renderScores } from './modules/app.js';
 
-saveList();
+window.addEventListener('DOMContentLoaded', renderScores);
+// submitScore();
+// refreshScores();
