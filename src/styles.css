@@ -3,7 +3,8 @@
   margin: 0;
   font-family: sans-serif;
 }
-body{
+
+body {
   background-image: url('images/neom-WpOMM4uE-F8-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,11 +42,11 @@ li {
   background-color: gray;
   border: 1px solid darkblue;
 }
+
 #score-List li:nth-child(odd) {
   background-color: gainsboro;
-    border: 1px solid snow;
+  border: 1px solid snow;
 }
-
 
 #score-List {
   margin: 24px;
@@ -64,7 +65,8 @@ input {
   padding: 5px;
   background: gainsboro;
 }
-#refresh{
+
+#refresh {
   background: gainsboro;
   padding: 5px;
 }
@@ -77,9 +79,9 @@ input {
   padding: 5px;
   cursor: pointer;
 }
-#refresh:hover:active{
-  box-shadow: 5px 5px black;
 
+#refresh:hover:active {
+  box-shadow: 5px 5px black;
 }
 
 .submit:hover:active {
